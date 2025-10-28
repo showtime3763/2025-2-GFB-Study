@@ -5,10 +5,9 @@ import './App.css';
 import {useState } from 'react';
 
 function App() {
-
 	let [글제목, 글제목변경] = useState(['남자 코트 추천', '강남 우동맛집', '파이썬독학']);
     let [따봉, 따봉변경] = useState(0);
-	let [modal, setModal]useState(1);
+	let [modal, setModal] = useState(1);
 
 	return (
 		<div className="App">
