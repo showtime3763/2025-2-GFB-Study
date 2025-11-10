@@ -7,6 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
@@ -17,16 +19,33 @@ function App() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+            Signed in as: <a href="#login">20253310 이지형</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
-      
     </Navbar>
 
       <div className = "main-bg"></div>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-4'>
+            <img src = "경로"/>
+            <h4>상품명</h4>
+            <p>상품설명</p>
+          </div>
+          <div className='col-md-4'>
+            <img src = "경로"/>
+            <h4>상품명</h4>
+            <p>상품설명</p>
+          </div>
+          <div className='col-md-4'>
+            <img src = "경로"/>
+            <h4>상품명</h4>
+            <p>상품설명</p>
+          </div>
+        </div>
 
-
+      </div>
     </div>
   );
 }
